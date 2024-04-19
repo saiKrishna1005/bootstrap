@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="icon" href="./images/logoicon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+
+
+ 
+
+</head>
+<body>
+
+  <div class="container-fluid">
+
+  <!-- navbar -->
+    
+  <nav class="navbar  navbar-expand-md bg-warning py-4 row navbar-fix">
+    <div class="container-fluid">
+      <div class="col-4 col-xxl-1 col-xl-2 col-lg-2 col-md-3 col-sm-3 d-flex justify-content-center">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.jpg" alt="" class="img-fluid ms-1" width="80%" height="10vh">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="col-2 col-xxl-1 col-xl-1 col-lg-1 col-md-1 d-flex justify-content-center col-sm-2 order-first order-sm-4">
+        <button type="button" class="btn btn-dark rounded-circle">
+          <i class="bi bi-person-fill"></i>
+        </button>
+      </div>
+      <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbar2Label">search for products</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="navbar-collapse col-12 col-xxl-9 col-xl-8 col-lg-7 col-md-6 col-sm-5 order-4" id="navbarSupportedContent">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+                <span class="input-group-text bg-dark" id="basic-addon1">
+                  <i class="bi bi-search text-white"></i>
+                </span>
+              </div>
+              <div class="d-md-none">
+                <div class="p-2 text-white"><a href="./index.html" class="text-decoration-none text-white" >HOME</a></div>
+                <div class="p-2 text-white">CUSTOMIZE MY BADGE</div>
+                <div class="dropdown-shop">
+                    <button class="btn text-white dropdown-toggle p-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SHOP
+                    </button>
+                    <ul class="dropdown-menu">
+                      <div class="row dropdown-menu-shop bg-white d-flex">
+                        <div class="col">
+                          <ul class="text-capitalize">
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;button badges</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;enamel pins</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;bottle opener</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;customized badges</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;customized rakhi</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;dot sockets - mobile grips</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;fridge magnets</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;laptop stickers</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;luggage tags</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;noteboox - diaries</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;posters</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;t - shirts</li>
+                          </ul> 
+                    
+                        </div>
+                    
+                        <div class="col">
+                          <ul class="text-capitalize">
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;alcohol & stoner</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;animals and pets</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;anime</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;baby shower</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;bikers</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;bollywood</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;christmas</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;covid-19 essentials</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;dance</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;desi</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;feminist</li>
+                          </ul> 
+                    
+                        </div>
+                    
+                        <div class="col">
+                          <ul class="text-capitalize">
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;food</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;funny</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;gaming</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;geek</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;gym & fitness</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;k-pop</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;memes</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;mental health</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;music</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;ocassions</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;photography</li>
+                          </ul> 
+                    
+                        </div>
+                    
+                        <div class="col">
+                          <ul class="text-capitalize">
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;pride</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;quotes</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;rakshabandhan</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;sports</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;travel</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;wedding</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;women's day</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;zodiac sign</li>
+                            
+                          </ul> 
+                    
+                        </div>
+                      </div>
+                    </ul>
+                   
+                </div>
+                <div class="p-2 text-white"><a href="./combos.html" class="text-decoration-none text-white" >COMBOS</a></div>
+                <div class="p-2 text-white">CLEARANCE</div>
+                <div class="p-2 text-white"><a href="./contact.html" class="text-decoration-none text-white" >CONTACT US</a></div>
+                <div class="p-2 text-white">BULK ORDER</div>
+                <div class="p-2 text-white">TRACK YOUR ORDER</div>
+              </div>
+            
+              </div>
+                  
+        </div>
+      </div>
+
+      <div class="col-3 col-xxl-1 col-xl-1 col-lg-2 col-md-2 col-sm-2 order-sm-4">
+        <button type="button" class="btn btn-dark rounded-pill">
+          <span class="fs-6">$0.00</span><i class="bi bi-cart3 "></i>
+        </button>
+      </div>
+      
+    </div>
+  </nav>
+
+  <!-- menu bar -->
+  <div class="row d-none d-sm-none d-md-block menubar-fix">
+
+
+    <div class="container-fluid px-0 ">
+  
+      <div class="d-flex flex-row flex-wrap bg-dark justify-content-md-center  col-md-12 col-lg-12">
+        <div class="p-2 text-white"><a href="./index.html" class="text-decoration-none text-white" >HOME</a></div>
+        <div class="p-2 text-white">CUSTOMIZE MY BADGE</div>
+        <div class="dropdown-shop">
+            <button class="btn text-white dropdown-toggle p-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SHOP
+            </button>
+            <ul class="dropdown-menu">
+              <div class="row dropdown-menu-shop bg-white d-flex">
+                <div class="col">
+                  <ul class="text-capitalize">
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;button badges</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;enamel pins</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;bottle opener</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;customized badges</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;customized rakhi</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;dot sockets - mobile grips</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;fridge magnets</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;laptop stickers</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;luggage tags</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;noteboox - diaries</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;posters</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;t - shirts</li>
+                  </ul> 
+            
+                </div>
+            
+                <div class="col">
+                  <ul class="text-capitalize">
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;alcohol & stoner</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;animals and pets</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;anime</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;baby shower</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;bikers</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;bollywood</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;christmas</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;covid-19 essentials</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;dance</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;desi</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;feminist</li>
+                  </ul> 
+            
+                </div>
+            
+                <div class="col">
+                  <ul class="text-capitalize">
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;food</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;funny</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;gaming</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;geek</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;gym & fitness</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;k-pop</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;memes</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;mental health</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;music</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;ocassions</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;photography</li>
+                  </ul> 
+            
+                </div>
+            
+                <div class="col">
+                  <ul class="text-capitalize">
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;pride</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;quotes</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;rakshabandhan</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;sports</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;travel</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;wedding</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;women's day</li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;zodiac sign</li>
+                    
+                  </ul> 
+            
+                </div>
+              </div>
+            </ul>
+           
+        </div>
+        <div class="p-2 text-white"><a href="./combos.html" class="text-decoration-none text-white" >COMBOS</a></div>
+        <div class="p-2 text-white">CLEARANCE</div>
+        <div class="p-2 text-white"><a href="./contact.html" class="text-decoration-none text-white" >CONTACT US</a></div>
+        <div class="p-2 text-white">BULK ORDER</div>
+        <div class="p-2 text-white">TRACK YOUR ORDER</div>
+    
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- combination of sidebar and products  -->
+    <div class="row">
+      <div class="col-12 d-sm-none d-md-none d-lg-block col-lg-3">
+        <div class="my-2">
+            <span class="text-capitalize">home / combos</span>
+        </div>
+        <div class="flex-shrink-0 p-3" style="width: 280px;">
+            <a href="" class="d-flex justify-content-start pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
+              <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              <span class="fs-5 fw-semibold text-uppercase">shop by products</span>
+            </a>
+            <ul class="list-unstyled ps-0">
+              <li class="my-3">
+                <button class="btn btn-toggle text-capitalize d-inline-flex fs-5 align-items-center border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                    bottle opener
+                </button>
+                <hr>
+                
+              </li>
+              <li class="my-3">
+                <button class="btn btn-toggle text-capitalize d-inline-flex fs-5 align-items-center border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                    button badges
+                </button>
+                <hr>
+                
+              </li>
+              <li class="my-3">
+                <button class="btn btn-toggle text-capitalize d-inline-flex fs-5 align-items-center border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                    luggage tags
+                </button>
+                <hr>
+                
+              </li>
+              <li class="my-3">
+                <button class="btn btn-toggle text-capitalize d-inline-flex fs-5 align-items-center border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                  combos
+                </button>
+                <hr>
+                <div class="collapse" id="orders-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none">New</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none">Processed</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none">Shipped</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none">Returned</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="my-3">
+                <button class="btn btn-toggle text-capitalize d-inline-flex fs-5 align-items-center border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                    animals and pets
+                </button>
+                <hr>
+                
+              </li>
+              <li class="my-3">
+                <button class="btn btn-toggle text-capitalize d-inline-flex fs-5 align-items-center border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                    bikers
+                </button>
+                <hr>
+                
+              </li>
+              <li class="my-3">
+                <button class="btn btn-toggle text-capitalize d-inline-flex fs-5 align-items-center border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                    dance
+                </button>
+                <hr>
+                
+              </li>
+              <li class="my-3">
+                <button class="btn btn-toggle text-capitalize d-inline-flex fs-5 align-items-center border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                    funny
+                </button>
+                <hr>
+                
+              </li>
+              <li class="my-3">
+                <button class="btn btn-toggle text-capitalize d-inline-flex fs-5 align-items-center border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    travel
+                </button>
+                <hr>
+                
+              </li>
+              
+              <li class="border-top my-3"></li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex fs-5 align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                  Account
+                </button>
+                <div class="collapse" id="account-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded fs-5">New...</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded fs-5">Profile</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded fs-5">Settings</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded fs-5">Sign out</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+      </div>
+     
+      <div class="col-12 mt-3 col-sm-12 col-md-12 col-lg-9">
+        <div class="row my-2">
+            <div class="col">
+                <p>showing 1-48 of 91 results</p>
+            </div>
+            <div class="col">
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        shop by popularity
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">badges</a></li>
+                      <li><a class="dropdown-item" href="#">stickers</a></li>
+                      <li><a class="dropdown-item" href="#">animals</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="col">
+                <p class="fs-6">
+                    Buy printed button badges online in India from dot Badges at best prices. Express your passion, feeling or effectively spread your brand. With the best designs tool of dot Badges, you can either explore all the designer buttons online or create your own badge.
+
+                </p>
+            </div>
+            
+        </div>
+
+        <!-- combos gallery  -->
+
+<div class="container container-md">
+    <div class="row">
+      <div class="col-12 my-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card-fp">
+            <div class="card">
+  
+          <img src="./images/cm-1.webp" class="card-img-top img-fluid" alt="...">
+          <img src="./images/cm-11.webp" class="card-img-top img-top-fp img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">My Kitchen My Rules – Fridge Magnet</h5>
+              <p class="card-text"><del>$129</del><span class="fs-4">₹75.00</span> Prices inclusive of taxes</p>
+              <button type="button" class="btn btn-dark text-center text-capitalize">select options</button>
+          </div>
+        </div>
+      </div>
+  
+      </div>
+  
+      <div class="col-12 my-2 col-lg-3 col-md-4 col-sm-6">
+        <div class="card-fp">
+          <div class="card">
+  
+          <img src="./images/cm-2.webp" class="card-img-top img-fluid" alt="...">
+          <img src="./images/cm-12.webp" class="card-img-top img-top-fp img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Being cheesy - fridge magnet</h5>
+              <p class="card-text"><del>$129</del><span class="fs-4">₹75.00</span> Prices inclusive of taxes</p>
+              <button type="button" class="btn btn-dark text-center text-capitalize">select options</button>
+          </div>
+        </div>
+      </div>
+  
+  
+      </div>
+  
+      <div class="col-12 my-2 col-lg-3 col-md-4 col-sm-6">
+        <div class="card-fp">
+          <div class="card">
+  
+          <img src="./images/cm-3.webp" class="card-img-top img-fluid" alt="...">
+          <img src="./images/cm-13.webp" class="card-img-top img-top-fp img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Bitcoin – Laptop Sticker</h5>
+              <p class="card-text"><del>$129</del><span class="fs-4">₹75.00</span> Prices inclusive of taxes</p>
+              <button type="button" class="btn btn-dark text-center text-capitalize">select options</button>
+          </div>
+        </div>
+      </div>
+  
+  
+      </div>
+  
+      <div class="col-12 my-2 col-lg-3 col-md-4 col-sm-6">
+        <div class="card-fp">
+          <div class="card">
+  
+          <img src="./images/cm-4.webp" class="card-img-top img-fluid" alt="...">
+          <img src="./images/cm-14.webp" class="card-img-top img-top-fp img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Luggage Tags – F – Kyu</h5>
+              <p class="card-text"><del>$129</del><span class="fs-4">₹75.00</span> Prices inclusive of taxes</p>
+              <button type="button" class="btn btn-dark text-center text-capitalize">select options</button>
+          </div>
+        </div>
+      </div>
+  
+  
+      </div>
+  
+      <div class="col-12 my-2 col-lg-3 col-md-4 col-sm-6">
+        <div class="card-fp">
+          <div class="card">
+  
+          <img src="./images/cm-5.webp" class="card-img-top img-fluid" alt="...">
+          <img src="./images/cm-15.webp" class="card-img-top img-top-fp img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Charles Lecrlerc – Sticker</h5>
+              <p class="card-text"><del>$129</del><span class="fs-4">₹75.00</span> Prices inclusive of taxes</p>
+              <button type="button" class="btn btn-dark text-center text-capitalize">select options</button>
+          </div>
+        </div>
+      </div>
+  
+  
+      </div>
+  
+      <div class="col-12 my-2 col-lg-3 col-md-4 col-sm-6">
+        <div class="card-fp">
+          <div class="card">
+  
+          <img src="./images/cm-6.webp" class="card-img-top img-fluid" alt="...">
+          <img src="./images/cm-16.webp" class="card-img-top img-top-fp img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Lando Norris – T-shirt</h5>
+              <p class="card-text"><del>$129</del><span class="fs-4">₹75.00</span> Prices inclusive of taxes</p>
+              <button type="button" class="btn btn-dark text-center text-capitalize">select options</button>
+          </div>
+        </div>
+      </div>
+  
+  
+      </div>
+  
+      <div class="col-12 my-2 col-lg-3 col-md-4 col-sm-6">
+        <div class="card-fp">
+          <div class="card">
+  
+          <img src="./images/cm-7.webp" class="card-img-top img-fluid" alt="...">
+          <img src="./images/cm-17.webp" class="card-img-top img-top-fp img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Weird Dough – Fridge Magnet</h5>
+              <p class="card-text"><del>$129</del><span class="fs-4">₹75.00</span> Prices inclusive of taxes</p>
+              <button type="button" class="btn btn-dark text-center text-capitalize">select options</button>
+          </div>
+        </div>
+      </div>
+  
+  
+      </div>
+  
+      <div class="col-12 my-2 col-lg-3 col-md-4 col-sm-6">
+        <div class="card-fp">
+          <div class="card">
+  
+          <img src="./images/cm-8.webp" class="card-img-top img-fluid" alt="...">
+          <img src="./images/cm-18.webp" class="card-img-top img-top-fp img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Coffee – Round Button Badge</h5>
+              <p class="card-text"><del>$129</del><span class="fs-4">₹75.00</span> Prices inclusive of taxes</p>
+              <button type="button" class="btn btn-dark text-center text-capitalize">select options</button>
+          </div>
+        </div>
+      </div>
+  
+  
+      </div>
+  
+      <div class="col-12 my-2 col-lg-3 col-md-4 col-sm-6">
+        <div class="card-fp">
+          <div class="card">
+  
+          <img src="./images/cm-9.webp" class="card-img-top img-fluid" alt="...">
+          <img src="./images/cm-19.webp" class="card-img-top img-top-fp img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Internet Dinosaur – Laptop Sticker</h5>
+              <p class="card-text"><del>$129</del><span class="fs-4">₹75.00</span> Prices inclusive of taxes</p>
+              <button type="button" class="btn btn-dark text-center text-capitalize">select options</button>
+          </div>
+        </div>
+      </div>
+  
+  
+      </div>
+  
+      <div class="col-12 my-2 col-lg-3 col-md-4 col-sm-6">
+        <div class="card-fp">
+          <div class="card">
+  
+          <img src="./images/cm-10.webp" class="card-img-top img-fluid" alt="...">
+          <img src="./images/cm-20.webp" class="card-img-top img-top-fp img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Tech Support – Laptop Sticker</h5>
+              <p class="card-text"><del>$129</del><span class="fs-4">₹75.00</span> Prices inclusive of taxes</p>
+              <button type="button" class="btn btn-dark text-center text-capitalize">select options</button>
+          </div>
+        </div>
+      </div>
+  
+  
+      </div>
+  
+      <div class="col-12 my-2 col-lg-3 col-md-4 col-sm-6">
+        <div class="card-fp">
+          <div class="card">
+  
+          <img src="./images/fp-3.webp" class="card-img-top img-fluid" alt="...">
+          <img src="./images/fp-13.webp" class="card-img-top img-top-fp img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Bitcoin – Laptop Sticker</h5>
+              <p class="card-text"><del>$129</del><span class="fs-4">₹75.00</span> Prices inclusive of taxes</p>
+              <button type="button" class="btn btn-dark text-center text-capitalize">select options</button>
+          </div>
+        </div>
+      </div>
+  
+  
+      </div>
+  
+      <div class="col-12 my-2 col-lg-3 col-md-4 col-sm-6">
+        <div class="card-fp">
+          <div class="card">
+  
+          <img src="./images/cm-10.webp" class="card-img-top img-fluid" alt="...">
+          <img src="./images/fp-13.webp" class="card-img-top img-top-fp img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Bitcoin – Laptop Sticker</h5>
+              <p class="card-text"><del>$129</del><span class="fs-4">₹75.00</span> Prices inclusive of taxes</p>
+              <button type="button" class="btn btn-dark text-center text-capitalize">select options</button>
+          </div>
+        </div>
+      </div>
+  
+  
+      </div>
+  
+      
+  
+  
+    </div>
+  </div>
+        
+      </div>
+    </div>
+  
+
+ 
+
+
+</div>
+
+       <!-- footer -->
+       <div class="container-fluid text-center bg-dark py-4">
+        <div class="row text-white">
+          <div class="col-12 col-lg-3 col-md-6 col-sm-6" >
+            <p class="fs-4 text-start fw-bold text-capitalize">about us</p>
+            <p class="text-start">Manufactures of easy-off beat pocket friendly merchandise. As our name suggests we manufacturer Round pin-back button badges, we have a badge for every mood and occasion. Button Badges so cheap that nobody beats our prices.</p>
+      
+          </div>
+          <div class="col-12 col-lg-3 col-md-6 col-sm-6" >
+            <p class="fs-4 text-start fw-bold text-capitalize">information</p>
+              <li class="text-capitalize text-start">about us</li>
+              <hr>
+              <li class="text-capitalize text-start">bulk order</li>
+              <hr>
+              <li class="text-capitalize text-start">influencer collabration</li>
+              <hr>
+              <li class="text-capitalize text-start">contact us</li>
+              <hr>
+              <li class="text-capitalize text-start">terms and conditions</li>
+              <hr>
+          </div>
+          <div class="col-12 col-lg-3 col-md-6 col-sm-6" >
+            <p class="fs-4 text-start fw-bold text-capitalize">help</p>
+              <li class="text-capitalize text-start">track my order</li>
+              <hr>
+              <li class="text-capitalize text-start">site map</li>
+              <hr>
+              <li class="text-capitalize text-start">returns and refunds</li>
+              <hr>
+              <li class="text-capitalize text-start">coupons</li>
+              <hr>
+              <li class="text-capitalize text-start">privacy policy</li>
+              <hr>
+          </div>
+          <div class="col-12 col-lg-3 col-md-6 col-sm-6" >
+            <p class="fs-4 text-start fw-bold text-capitalize">products made in india</p>
+            <p class="text-start">An ambitious nation-building initiative to encourage manufacturing of goods in India. We support this initiative, all Button Badges on our website are Made In India.</p>
+            
+          </div>
+        </div>
+      </div>
+      
+      <!-- copyright -->
+      <div class="container-fluid text-center bg-secondary text-white">
+        <div class="row">
+          <div class="col">
+            <p class="text-start fs-5">Copyrights 2024 © Dot Badges</p>
+            <p class="text-start fs-5">Making the world a better place to live in dot by dot.</p>
+          </div>
+          <div class="col">
+            <span class="text-start fs-5">100% Secure Payments</span>
+            <sapn class="container text-center">
+              <div class="row ">
+                <div class="col-5 col-sm-3 col-md-4 col-lg-2 mt-1 border border-secondary rounded-3">
+                  <img src="./images/cash-on-delivery.webp" class="img-fluid w-50" alt="">
+                </div>
+                <div class="col-5 col-sm-3 col-md-4 col-lg-2 mt-2 border border-secondary rounded-3">
+                  <img src="./images/Rupay-Logo.png" class="img-fluid " alt="">
+                </div>
+                <div class="col-5 col-sm-3 col-md-4 col-lg-2 mt-2 border border-secondary rounded-3">
+                  <img src="./images/visa-card-logo.png" class="img-fluid " alt="">
+                </div>
+                <div class="col-5 col-sm-3 col-md-4 col-lg-2 mt-2 border border-secondary rounded-3">
+                  <img src="./images/Paytm_logo.png" class="img-fluid " alt="">
+                </div>
+                <div class="col-5 col-sm-3 col-md-4 col-lg-2 border border-secondary rounded-3">
+                  <img src="./images/mastercard-logo.png" class="img-fluid " alt="">
+                </div>
+                <div class="col-5 col-sm-3 col-md-4 col-lg-2 mt-1 border border-secondary rounded-3">
+                  <img src="./images/Google-Pay-logo.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </span>
+            
+          </div>
+         
+          
+        </div>
+      </div>
+      
+
+
+
+
+
+  
+    
+</body>
+</html>
